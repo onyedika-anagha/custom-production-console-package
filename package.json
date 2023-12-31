@@ -1,0 +1,20 @@
+{
+  "name": "custom-console-package",
+  "version": "1.0.0",
+  "description": "A custom console utility for enhanced logging.",
+  "main": "src/CustomConsole.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyedika-anagha/custom-production-console-package.git"
+  },
+  "keywords": ["console", "logging", "error-tracking", "production-logging"],
+  "author": "Onyedika Johnpaul Anagha <contact@onyedikaanagha.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onyedika-anagha/custom-production-console-package/issues"
+  },
+  "homepage": "https://github.com/onyedika-anagha/custom-production-console-package#readme"
+}
