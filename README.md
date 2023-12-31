@@ -1,7 +1,3 @@
-Certainly! Here's the `README.md` content formatted using Markdown:
-
----
-
 ## Custom Console Package
 
 The `CustomConsole` npm package provides a flexible logging utility tailored for JavaScript applications. While mirroring the behavior of a standard console during development, it intelligently routes error messages to a designated endpoint in production environments, facilitating streamlined error tracking and management.
