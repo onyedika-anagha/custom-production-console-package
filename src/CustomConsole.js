@@ -5,9 +5,7 @@ class CustomConsole {
     }
 
     log(...args) {
-        if (this.production) {
-            this.sendToServer('log', args.join(' '));
-        } else {
+        if (!this.production) {
             console.log(...args);
         }
     }
