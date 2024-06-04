@@ -1,20 +1,34 @@
 {
   "name": "custom-console-package",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A custom console utility for enhanced logging.",
-  "main": "src/CustomConsole.js",
+  "main": "dist/CustomConsole.js",
+  "types": "dist/CustomConsole.d.ts",
   "scripts": {
+    "build": "tsc --declaration",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onyedika-anagha/custom-production-console-package.git"
   },
-  "keywords": ["console", "logging", "error-tracking", "production-logging"],
+  "keywords": [
+    "console",
+    "logging",
+    "error-tracking",
+    "production-logging"
+  ],
   "author": "Onyedika Johnpaul Anagha <contact@onyedikaanagha.dev>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/onyedika-anagha/custom-production-console-package/issues"
   },
-  "homepage": "https://github.com/onyedika-anagha/custom-production-console-package#readme"
+  "homepage": "https://github.com/onyedika-anagha/custom-production-console-package#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
